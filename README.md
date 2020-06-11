@@ -26,10 +26,6 @@
 
 ## :rocket: Mobile Technologies
 
-<h1 align="center">
-    <img alt="Currency Converter Image" src="https://github.com/eltonlazzarin/currency-converter/blob/master/screenshots/currencyconverter.png" />  
-</h1>
-
 This project was developed with the following technologies:
 
 - [Flutter](https://github.com/flutter/flutter)
