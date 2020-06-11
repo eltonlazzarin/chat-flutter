@@ -15,8 +15,6 @@
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/eltonlazzarin/chat-flutter">
 
   <img alt="GitHub issues" src="https://img.shields.io/github/issues/eltonlazzarin/chat-flutter">
-  
-  <img alt="GitHub" src="https://img.shields.io/github/license/eltonlazzarin/chat-flutter">
 
   <img alt="GitHub" src="https://img.shields.io/github/license/eltonlazzarin/chat-flutter">
 
