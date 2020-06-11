@@ -15,7 +15,6 @@ class _TextComposerState extends State<TextComposer> {
   final TextEditingController _controller = TextEditingController();
 
   bool _isComposing = false;
-
   void _reset() {
     _controller.clear();
     setState(() {
@@ -23,18 +22,18 @@ class _TextComposerState extends State<TextComposer> {
     });
   }
 
+  //
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.symmetric(horizontal: 8),
+      margin: const EdgeInsets.symmetric(horizontal: 8.0),
       child: Row(
         children: <Widget>[
           IconButton(
             icon: Icon(Icons.photo_camera),
             onPressed: () async {
               final File imgFile =
-                  await ImagePicker.pickImage(source: ImageSource.gallery);
-
+                  await ImagePicker.pickImage(source: ImageSource.camera);
               if (imgFile == null) return;
               widget.sendMessage(imgFile: imgFile);
             },
@@ -43,7 +42,7 @@ class _TextComposerState extends State<TextComposer> {
             child: TextField(
               controller: _controller,
               decoration:
-                  InputDecoration.collapsed(hintText: "Enviar uma mensagem"),
+                  InputDecoration.collapsed(hintText: 'Enviar uma mensagem'),
               onChanged: (text) {
                 setState(() {
                   _isComposing = text.isNotEmpty;
@@ -63,7 +62,7 @@ class _TextComposerState extends State<TextComposer> {
                     _reset();
                   }
                 : null,
-          ),
+          )
         ],
       ),
     );
