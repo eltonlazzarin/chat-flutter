@@ -18,6 +18,8 @@
   
   <img alt="GitHub" src="https://img.shields.io/github/license/eltonlazzarin/chat-flutter">
 
+  <img alt="GitHub" src="https://img.shields.io/github/license/eltonlazzarin/chat-flutter">
+
 <p align="center">
   <a href="#rocket-mobile-technologies">Mobile Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
